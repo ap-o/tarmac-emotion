@@ -8,9 +8,10 @@ import styled from 'emotion/react';
 class Tarmac extends React.Component {
   render () {
 
-    const Container = styled('h1')`
+    const Container = styled('section')`
       display: flex;
       flex-direction: column;
+      background-color: #e0e0e0;
       min-height: 100vh;
       flex: 1 0 100%;
     `;
@@ -22,9 +23,9 @@ class Tarmac extends React.Component {
     `;
 
     return (
-      <main className={styles.container}>
+      <Container>
         <HeaderOne>Tarmac</HeaderOne>
-      </main>
+      </Container>
     )
   }
 }
